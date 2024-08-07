@@ -11,7 +11,7 @@ We present C·ASE, an efficient and effective framework that learns conditional 
 
 ## Codes
 
-**Given the restrictions from the institute, please directly email me at frankzydou@gmail.com to obtain the reproducible code. Our reproducible repository includes CASE and the core code. It does not include the large-scale training skill partitioner and dataset.**
+**Given the restrictions from the institute, please directly email me at frankzydou@gmail.com to obtain the reproducible code. Our reproducible repository includes the core code of CASE. It does not include the large-scale training skill labeler and dataset.**
 
 
 
