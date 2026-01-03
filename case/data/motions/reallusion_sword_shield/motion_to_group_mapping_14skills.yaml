@@ -1,0 +1,147 @@
+# Motion to Group Mapping for Reallusion Sword Shield Dataset
+# Semantic grouping: 87 motions -> 14 skill categories
+# This demonstrates many-to-one mapping where similar motions share a skill label
+
+groups:
+  # Skill 0: Combo Attacks (2x, 3x, 4x combos)
+  combo_attack:
+    motions:
+      - RL_Avatar_Atk_2xCombo01_Motion.npy
+      - RL_Avatar_Atk_2xCombo02_Motion.npy
+      - RL_Avatar_Atk_2xCombo03_Motion.npy
+      - RL_Avatar_Atk_2xCombo04_Motion.npy
+      - RL_Avatar_Atk_2xCombo05_Motion.npy
+      - RL_Avatar_Atk_3xCombo01_Motion.npy
+      - RL_Avatar_Atk_3xCombo02_Motion.npy
+      - RL_Avatar_Atk_3xCombo03_Motion.npy
+      - RL_Avatar_Atk_3xCombo04_Motion.npy
+      - RL_Avatar_Atk_3xCombo05_Motion.npy
+      - RL_Avatar_Atk_3xCombo06_Motion.npy
+      - RL_Avatar_Atk_3xCombo07_Motion.npy
+      - RL_Avatar_Atk_4xCombo01_Motion.npy
+      - RL_Avatar_Atk_4xCombo02_Motion.npy
+      - RL_Avatar_Atk_4xCombo03_Motion.npy
+
+  # Skill 1: Special Attacks (single attacks with special moves)
+  special_attack:
+    motions:
+      - RL_Avatar_Atk_Jump_Motion.npy
+      - RL_Avatar_Atk_Kick_Motion.npy
+      - RL_Avatar_Atk_ShieldCharge_Motion.npy
+      - RL_Avatar_Atk_ShieldSwipe01_Motion.npy
+      - RL_Avatar_Atk_ShieldSwipe02_Motion.npy
+      - RL_Avatar_Atk_SlashDown_Motion.npy
+      - RL_Avatar_Atk_SlashLeft_Motion.npy
+      - RL_Avatar_Atk_SlashRight_Motion.npy
+      - RL_Avatar_Atk_SlashUp_Motion.npy
+      - RL_Avatar_Atk_Spin_Motion.npy
+      - RL_Avatar_Atk_Stab_Motion.npy
+
+  # Skill 2: Counter Attacks
+  counter:
+    motions:
+      - RL_Avatar_Counter_Atk01_Motion.npy
+      - RL_Avatar_Counter_Atk02_Motion.npy
+      - RL_Avatar_Counter_Atk03_Motion.npy
+      - RL_Avatar_Counter_Atk04_Motion.npy
+      - RL_Avatar_Counter_Atk05_Motion.npy
+
+  # Skill 3: Dodge
+  dodge:
+    motions:
+      - RL_Avatar_Dodge_Backward_Motion.npy
+      - RL_Avatar_Dodgle_Left_Motion.npy
+      - RL_Avatar_Dodgle_Right_Motion.npy
+
+  # Skill 4: Fall
+  fall:
+    motions:
+      - RL_Avatar_Fall_Backward_Motion.npy
+      - RL_Avatar_Fall_Left_Motion.npy
+      - RL_Avatar_Fall_Right_Motion.npy
+      - RL_Avatar_Fall_SpinLeft_Motion.npy
+      - RL_Avatar_Fall_SpinRight_Motion.npy
+
+  # Skill 5: Idle Poses
+  idle:
+    motions:
+      - RL_Avatar_Idle_Alert(0)_Motion.npy
+      - RL_Avatar_Idle_Alert_Motion.npy
+      - RL_Avatar_Idle_Battle(0)_Motion.npy
+      - RL_Avatar_Idle_Battle_Motion.npy
+      - RL_Avatar_Idle_Ready(0)_Motion.npy
+      - RL_Avatar_Idle_Ready_Motion.npy
+
+  # Skill 6: Kill Finishers
+  kill_finisher:
+    motions:
+      - RL_Avatar_Kill_2xCombo01_Motion.npy
+      - RL_Avatar_Kill_2xCombo02_Motion.npy
+      - RL_Avatar_Kill_3xCombo01_Motion.npy
+      - RL_Avatar_Kill_3xCombo02_Motion.npy
+      - RL_Avatar_Kill_4xCombo01_Motion.npy
+
+  # Skill 7: Run Locomotion
+  run:
+    motions:
+      - RL_Avatar_RunBackward_Motion.npy
+      - RL_Avatar_RunForward_Motion.npy
+      - RL_Avatar_RunLeft_Motion.npy
+      - RL_Avatar_RunRight_Motion.npy
+
+  # Skill 8: Shield Block
+  shield_block:
+    motions:
+      - RL_Avatar_Shield_BlockBackward_Motion.npy
+      - RL_Avatar_Shield_BlockCrouch_Motion.npy
+      - RL_Avatar_Shield_BlockDown_Motion.npy
+      - RL_Avatar_Shield_BlockLeft_Motion.npy
+      - RL_Avatar_Shield_BlockRight_Motion.npy
+      - RL_Avatar_Shield_BlockUp_Motion.npy
+
+  # Skill 9: Standoff
+  standoff:
+    motions:
+      - RL_Avatar_Standoff_Circle_Motion.npy
+      - RL_Avatar_Standoff_Feint_Motion.npy
+      - RL_Avatar_Standoff_Swing_Motion.npy
+
+  # Skill 10: Sword Parry
+  parry:
+    motions:
+      - RL_Avatar_Sword_ParryBackward01_Motion.npy
+      - RL_Avatar_Sword_ParryBackward02_Motion.npy
+      - RL_Avatar_Sword_ParryBackward03_Motion.npy
+      - RL_Avatar_Sword_ParryBackward04_Motion.npy
+      - RL_Avatar_Sword_ParryCrouch_Motion.npy
+      - RL_Avatar_Sword_ParryDown_Motion.npy
+      - RL_Avatar_Sword_ParryLeft_Motion.npy
+      - RL_Avatar_Sword_ParryRight_Motion.npy
+      - RL_Avatar_Sword_ParryUp_Motion.npy
+
+  # Skill 11: Taunt
+  taunt:
+    motions:
+      - RL_Avatar_Taunt_PoundChest_Motion.npy
+      - RL_Avatar_Taunt_Roar_Motion.npy
+      - RL_Avatar_Taunt_ShieldKnock_Motion.npy
+
+  # Skill 12: Turn
+  turn:
+    motions:
+      - RL_Avatar_TurnLeft180_Motion.npy
+      - RL_Avatar_TurnLeft90_Motion.npy
+      - RL_Avatar_TurnRight180_Motion.npy
+      - RL_Avatar_TurnRight90_Motion.npy
+
+  # Skill 13: Walk Locomotion
+  walk:
+    motions:
+      - RL_Avatar_WalkBackward01_Motion.npy
+      - RL_Avatar_WalkBackward02_Motion.npy
+      - RL_Avatar_WalkForward01_Motion.npy
+      - RL_Avatar_WalkForward02_Motion.npy
+      - RL_Avatar_WalkLeft01_Motion.npy
+      - RL_Avatar_WalkLeft02_Motion.npy
+      - RL_Avatar_WalkRight01_Motion.npy
+      - RL_Avatar_WalkRight02_Motion.npy
