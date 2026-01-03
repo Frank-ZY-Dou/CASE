@@ -275,5 +275,3 @@ This codebase builds upon:
 - [ASE](https://github.com/nv-tlabs/ASE) by NVIDIA
 - [Isaac Gym](https://developer.nvidia.com/isaac-gym) by NVIDIA
 - [rl-games](https://github.com/Denys88/rl_games)
-# CASE_test
-# CASE_test
